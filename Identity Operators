@@ -1,0 +1,9 @@
+a = [1, 2, 3]
+b = a
+c = [1, 2, 3]
+print(a is b) # Output: True (because `b` points to 
+the same object as `a`)
+print(a is c) # Output: False (because `c` is a 
+different object)
+print(a == c) # Output: True (but their values are 
+the same)
