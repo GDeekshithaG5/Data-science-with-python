@@ -1,0 +1,8 @@
+a = 10
+b = 20
+print(a == b) # Output: False
+print(a != b) # Output: True
+print(a > b) # Output: False
+print(a < b) # Output: True
+print(a >= 10) # Output: False
+print(a <= 20) # Output: True
