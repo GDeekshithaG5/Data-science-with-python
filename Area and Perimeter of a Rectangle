@@ -1,0 +1,9 @@
+def area_perimeter_rectangle(length, width):
+ area = length * width
+ perimeter = 2 * (length + width)
+ return area, perimeter
+
+length = 10
+width = 5
+area, perimeter = area_perimeter_rectangle(length, width)
+print(f"Area: {area}, Perimeter: {perimeter}")
