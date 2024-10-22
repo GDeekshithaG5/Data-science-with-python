@@ -1,0 +1,9 @@
+def calculate_simple_interest(principal, rate, time):
+ simple_interest = (principal * rate * time) / 100
+ return simple_interest
+
+P = 1000 
+R = 5
+T = 3
+interest = calculate_simple_interest(P, R, T)
+print(f"Simple Interest: {interest}") # OUTPUT:Simple Interest: 150.0
