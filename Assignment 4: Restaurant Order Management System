@@ -1,0 +1,7 @@
+resturentOrder=int(input("Enter the order amount: $"))
+if(resturentOrder>100):
+    print("A 5% discount is applied")
+elif(loyalty>100):
+    print("A 5% discount is applied")
+else:
+  print("Thereis no discount is applied")
