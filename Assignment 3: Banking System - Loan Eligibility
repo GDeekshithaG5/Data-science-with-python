@@ -1,0 +1,8 @@
+loan_Eligibility=int(input("Enter the value:"))
+
+if(loan_Eligibility>750):
+    print("There are eligible for loan")
+elif(650<=loan_Eligibility<=750):
+    print("They are eligible for a loan with an increased interest rate.")
+elif(employee<650):
+    print("There is no loan.")
