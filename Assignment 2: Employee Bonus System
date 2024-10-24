@@ -1,0 +1,10 @@
+employee=int(input("Enter the value: years"))
+
+if(employee>10):
+    print("A 15% discount is applied")
+elif(5<=employee<=10):
+    print("A 10% discount is applied")
+elif(employee<5):
+    print("A 5% discount is applied")
+else:
+    print("no discount is applied")
