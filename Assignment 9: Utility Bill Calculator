@@ -1,0 +1,9 @@
+Bill_Calculator=int(input("Enter the value"))
+if(Bill_Calculator<100):
+  print("the charge is $0.5 per unit.")
+elif(100<=Bill_Calculator<300):
+  print("The charge is $0.75 per unit")
+elif(Bill_Calculator>=300):
+  print("The charge is $1 per unit")
+else:
+  print("No charge")
