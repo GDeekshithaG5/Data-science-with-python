@@ -1,0 +1,7 @@
+Traffic_Light=str(input("Enter the traffic color(Red, yellow, green):"))
+if(Traffic_Light in Red):
+  print("STOP")
+elif(Traffic_light in Yellow):
+  print("Caution")
+elif(Traffic_light in Green):
+  print("Go")
