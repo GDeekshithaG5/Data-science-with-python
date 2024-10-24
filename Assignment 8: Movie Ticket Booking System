@@ -1,0 +1,9 @@
+Movie_Ticket=int(input("Enter the value: $"))
+if(Movie_Ticket<18):
+  print("8 per ticket")
+elif(18<=Movie_Ticket<60):
+  print("12 per ticket")
+elif(Movie_Ticket>=60):
+  print("10 per ticket")
+else:
+  print("There is no ticket")
