@@ -1,0 +1,8 @@
+cart_value=int(input("Enter the value: $"))
+
+if(cart_value>500):
+    print("A 20% discount is applied")
+elif(200<=cart_value<=500):
+    print("A 10% discount is applied")
+elif(cart_value<=200):
+    print(" No discount is applied")
