@@ -1,7 +1,7 @@
 Traffic_Light=str(input("Enter the traffic color(Red, yellow, green):"))
-if(Traffic_Light in Red):
+if(Traffic_Light == "Red"):
   print("STOP")
-elif(Traffic_light in Yellow):
+elif(Traffic_light == "Yellow"):
   print("Caution")
-elif(Traffic_light in Green):
+elif(Traffic_light == "Green"):
   print("Go")
