@@ -1,0 +1,29 @@
+#1.write a python program given number is positive or negative or zero
+from tkinter import *
+from tkinter import messagebox
+
+window = Tk()
+window.geometry("500x450")
+window.title("Positive_Negative_Zero")
+
+
+def validate_check():
+    num = int(e1.get())
+    if num>0:
+        messagebox.showinfo("status", "Positive Number")
+    elif num<0:
+        messagebox.showinfo("status", "Negative Number")
+    else:
+        messagebox.showinfo("status", "It is a Zero")
+
+
+# label1:
+l1 = Label(window, text="Number", font=30)
+l1.grid(row=0, column=0)
+#entrybox1
+e1 = Entry(window)
+e1.grid(row=0, column=1)
+#button
+b1_sum = Button(window, text="Enter", command=validate_check)
+b1_sum.grid(row=4, column=0)
+window.mainloop()
