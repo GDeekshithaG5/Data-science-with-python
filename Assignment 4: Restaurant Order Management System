@@ -1,7 +1,8 @@
-resturentOrder=int(input("Enter the order amount: $"))
-if(resturentOrder>100):
-    print("A 5% discount is applied")
-elif(loyalty>100):
-    print("A 5% discount is applied")
+resturant_order = int(input("total cost of an order: $"))
+member = int(input("customer is a loyalty program member(1 for yes/0 for no): "))
+if resturant_order > 100 and member == 1:
+  print("10% discount") 
+elif resturant_order > 100 and member == 0:
+  print("5% discount")
 else:
-  print("Thereis no discount is applied")
+  print("no discount")
